@@ -1,0 +1,8 @@
+{
+    "workbench.localHistory.enabled": true,
+    "remote.localPortHost": "localhost",
+    "remote.downloadExtensionsLocally": true,
+    "terminal.integrated.detectLocale": "off",
+    "terminal.integrated.localEchoStyle": "dim"
+    
+}

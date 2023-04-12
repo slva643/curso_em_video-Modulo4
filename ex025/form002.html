@@ -10,14 +10,15 @@
 
 <body>
     <h1>Tesxte de formularário</h1>
-    <form action="./cadastro.php" method="get">
+    <form action="./cadastro.php" method="get" autocomplete="off">
         <p>
             <label for="iusu">Usuário:</label>
-            <input type="text" name="usu" id="iusu" required> <!-- O "required" serve para o campo ser obrigadório-->
+            <input type="text" name="usu" id="iusu" required minlength="6" maxlength="15" size="14" placeholder="Nome do Usuário"> 
+            <!-- O "required" serve para o campo ser obrigadório. O "minlength" serve para inspersificar o minimo de caracter e "maxlength" o máximo de caracteres-->
         </p>
         <p>
             <label for="isen">Senha:</label>
-            <input type="password" name="sen" id="isen" required>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="14" placeholder= "Senha do senha">
         </p>
         <p>
             <input type="submit" value="Enviar">

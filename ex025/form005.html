@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fumulário</title>
+</head>
+
+<body>
+    <h1>Exemplo de Furmulário</h1>
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" value="M"> <label for="isxmas">Masculino</label><br>
+            <input type="radio" name="sexo" id="isxfem" value="F" checked> <label for="isxfem">Feminina</label>
+            <!-- Sempre tenho que colocar o mesmo name para funcionar -->
+            <!-- Quando quiser que já apareça um campo marcado é só acrescentar: checked -->
+            <!-- O ckacked não funciona e dois campo na radio, mas ele funciona mais de um no checkbox -->
+        </fieldset>
+        <fieldset>
+            <legend>Esporte favoritos</legend>
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas"> Basquete</label><br>
+            <input type="checkbox" name="esfut" id="iesfut" checked><label for="iesfut"> Futebol</label><br>
+            <input type="checkbox" nome="esnat" id="iesnat"> <label for="iesnat">Nadação</label><br>
+            <input type="checkbox" nome="esten" id="iesten"> <label for="iesten">Tênis</label><br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+
+</html>

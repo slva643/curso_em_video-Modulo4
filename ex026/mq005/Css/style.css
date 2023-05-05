@@ -13,12 +13,14 @@ html, body {
 
 header {
     background-color: rgb(148, 146, 146);
+    box-shadow:  1px 1px 2px 2px rgba(0, 0, 0, 0.61)  ;
 }
 
 header > h1 {
     padding: 10px;
     text-align: center;
 }
+
 
 span#burguer {
     background-color: rgb(48, 48, 48);
@@ -66,6 +68,7 @@ main {
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+    box-shadow:  1px 2px 2px 2px rgba(0, 0, 0, 0.37)  ;
 }
 
 article h2 {
